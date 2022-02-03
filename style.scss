@@ -83,7 +83,7 @@ body {
         .account-container {
             font-size: 0.9rem;
             text-align: left;
-            margin-left: 25px;
+            margin-left: 15px;
 
             .plan {
                 font-weight: 700;
@@ -122,4 +122,25 @@ body {
         margin-top: 15px;
         color: $Desaturated-blue;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        max-width: 300px;     
+        
+        
+        
+        button{
+            // padding-left: 3.5rem;
+            // padding-right: 3.5rem;
+            padding: 0.9rem 3.5rem;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        } 
+
+
+}
+
+
 }

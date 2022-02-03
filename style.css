@@ -84,7 +84,7 @@ body {
 .container .account .account-container {
   font-size: 0.9rem;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .container .account .account-container .plan {
@@ -120,5 +120,16 @@ body {
   font-weight: 700;
   margin-top: 15px;
   color: #7280a7;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 300px;
+  }
+  .container button {
+    padding: 0.9rem 3.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
