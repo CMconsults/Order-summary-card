@@ -1,0 +1,125 @@
+// Colors
+
+// Primary
+$Pale-blue: hsl(225, 100%, 94%);
+$Bright-blue: hsl(245, 75%, 52%);
+
+// Neutral
+$Very-pale-blue: hsl(225, 100%, 98%);
+$Desaturated-blue: hsl(224, 23%, 55%);
+$Dark-blue: hsl(223, 47%, 23%);
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: $Pale-blue;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.container {
+
+    background-color: #fff;
+    max-width: 400px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 30px;
+
+    img {
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .text-area1 {
+        margin-top: 30px;
+        padding: 0 40px;
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: $Desaturated-blue;
+        }
+
+    }
+
+    .account {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $Very-pale-blue;
+        margin: 25px 30px;
+        padding: 15px 20px;
+        border-radius: 15px;
+
+       .account-section1{
+           display: flex;
+           align-items: center;
+           
+       }
+
+        p {
+            font-size: 0.9rem;
+        }
+
+        .account-container {
+            font-size: 0.9rem;
+            text-align: left;
+            margin-left: 25px;
+
+            .plan {
+                font-weight: 700;
+                margin-bottom: 0.3rem;
+            }
+
+            .price {
+                font-size: 0.8rem;
+                color: $Desaturated-blue;
+            }
+
+            }
+            .change{
+                font-size: 0.7rem;
+        font-weight: 700;
+        color: $Bright-blue;
+        }
+
+
+    }
+
+    button {
+        padding: 0.85rem 6.8rem;
+        border: none;
+        border-radius: 8px;
+        background-color: $Bright-blue;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 700;
+        box-shadow: 0px 10px 15px 0px rgba(0, 0, 255, 0.253);
+    }
+
+    .cancel {
+        font-size: 0.8rem;
+        font-weight: 700;
+        margin-top: 15px;
+        color: $Desaturated-blue;
+    }
+}
